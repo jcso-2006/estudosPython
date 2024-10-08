@@ -17,7 +17,7 @@ A seguir, apresentamos 10 exceções comuns em Python que podem ser tratadas usa
    ```
 
 2. **`TypeError`**: Ocorre quando uma operação ou função é aplicada a um objeto de um tipo inadequado.  
-   **Exemplo**: `5 + 'string'` resulta em `TypeError`.  
+   **Exemplo**:  
    ```python
     try:
         print(5 + 'string')
@@ -26,7 +26,7 @@ A seguir, apresentamos 10 exceções comuns em Python que podem ser tratadas usa
    ```
 
 3. **`IndexError`**: Ocorre quando você tenta acessar um índice que está fora dos limites de uma lista ou sequência.  
-   **Exemplo**: `lista = [1, 2, 3]; lista[5]` lança um `IndexError`.  
+   **Exemplo**: 
    ```python
    try:
         lista = [1, 2, 3]
