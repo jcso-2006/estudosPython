@@ -4,6 +4,10 @@
 # A função deve retornar resultado e fórmula, exatamente nesta ordem.
 # Cria um botão, botao = tk.Button(janela, text="Função de Propagação", command=lambda: segunda_tela(função que vc criou))
 # botao.pack(pady=10)
+# as bibliotescas inspect e math são nativas do python junto com o tk, porem caso o tk não esteja faça
+##sudo apt-get install python3-tk
+#Tambem faça  o seguinte comando para instalar a biblioteca numpy
+##pip install numpy
 
 
 import tkinter as tk
